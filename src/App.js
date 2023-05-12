@@ -1,7 +1,13 @@
+// import { useEffect, useRef, useState } from "react";
 import "./App.css";
+import Canvas from "./components/Canvas";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Canvas />
+    </div>
+  );
 }
 
 export default App;

@@ -1,16 +1,70 @@
-# 스토밍 보드(구글 잼보드 비슷함)
+# Getting Started with Create React App
 
-<h2>1. 개요</h2>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- 공부/자료정리/기획 등을 하다보면 브레인스토밍이 필요하고 내가 가진 정보들과 메모들을 내가 보기 편하게 정리하고 싶을때가 있다. 
-내가 알기 쉽게 정리하기도 하지만, 상대방이 알기도 좋게 정리 할수 있는 보드를 만들어 보고싶다.
-- 참고용으로 구글잼을 봤는데 포스트잇처럼 내용을 쓰고 부착이 가능하지만, 엔터키로 내려쓰기가 안돼 글정리가 안되고 장문을 쓰는데도 한계가 있다.
+## Available Scripts
 
-<h2>2. 기능</h2>
+In the project directory, you can run:
 
-- 메모장을 생성하고 기록을 남기면 한 공간(보드)에 포스트잇처럼 부착(사이즈는 일정하게, 가능하다면 조정 가능하게)
-- 부착시에는 포스트잇 사이즈로 생성되지만 클릭하면 확장되서 전체내용을 볼수있게 띄우기(모달기능활용)
-- 드래그 가능하게 해서 원하는 위치에 놓기(보드 내부에서만 이동하도록)
-- 부착가능한 보드면은 그릴수도 있게 만들기
+### `npm start`
 
--디자인은 천천히 생각해보겠습니다..
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
